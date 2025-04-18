@@ -1,60 +1,3 @@
-'''
-🧾 Projeto: Simulador de Controle de Estoque (v1)
-📌 Objetivo
-Criar um sistema de controle de estoque simples no terminal, usando Python puro e os conhecimentos iniciais: variáveis, condicionais, laços, dicionários, funções e entrada de dados com input().
-
-Conceitos praticados:
-Dicionários aninhados (dict dentro de dict)
-
-Estruturas de repetição (while, for)
-
-Estruturas condicionais (if, elif, else)
-
-Funções (def)
-
-Manipulação de strings (.lower(), .title())
-
-Formatação de saída (.format() e :.2f pra formatar preços)
-
-Organização de código (separação por funções)
-
-UX com terminal (menu bonito, emojis, feedbacks)
-
-Funcionalidades implementadas:
-Adicionar produto
-
-Nome, quantidade e preço
-
-Não deixa adicionar um produto que já existe
-
-Remover produto
-
-Remove um item específico do estoque
-
-Informa se o produto não existe
-
-Consultar estoque
-
-Lista todos os produtos cadastrados com quantidade e preço
-
-Mostra aviso se o estoque estiver vazio
-
-Atualizar quantidade
-
-Permite mudar a quantidade de um produto já existente
-
-Buscar produto
-
-Mostra as informações de um produto específico
-
-Avisa se não encontrar
-
-Menu interativo
-
-Loop infinito até o usuário escolher sair
-
-Interface com emojis, separadores e feedbacks estilosos ✨
-'''
 
 # 1-CRIANDO O DICIONARIO DE ESTOQUE
 estoque = {} #A gente está criando um dicionário vazio chamado estoque, que vai guardar todos os produtos da nossa loja.
@@ -147,16 +90,4 @@ while True:
     else:
         print('Opçao invalida. Tente novamente.')
 
-'''
-✅ Próximos passos possíveis:
 
-💾 Salvar o estoque em um arquivo .json
-
-📂 Carregar os dados ao iniciar o programa
-
-🔐 Autenticação com senha
-
-🧮 Relatório de total em estoque (valor acumulado)
-
-🌐 Fazer versão com interface web ou Tkinter
-'''
